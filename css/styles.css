@@ -18,7 +18,7 @@
   background-color: red;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (min-width: 768px){
   .red{
     background-color: black;
   }
@@ -27,7 +27,7 @@
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 375px) {
   .blue{
     background-color: red;
   }
